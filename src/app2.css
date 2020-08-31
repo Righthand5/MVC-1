@@ -1,0 +1,27 @@
+#app2{
+}
+#app2 .tab-bar{
+    display: flex;
+}
+#app2 .tab-bar >li{
+    border:3px solid black;
+    width: 50%;
+}
+#app2 .tab-content{
+
+}
+#app2 .tab-bar > li{
+    border: 1px solid grey;
+    width: 50%;
+}
+#app2 .tab-bar > li.selected {
+    background: rgb(253, 211, 155);
+    color: white;
+}
+#app2 .tab-content >li{
+    display: none;
+}
+/*样式与行为分离*/
+#app2 .tab-content > li.active{
+    display: block;
+}
